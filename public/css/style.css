@@ -1,0 +1,115 @@
+#date {
+    font-size: 125%;
+}
+
+span.alert.alert-info {
+    padding: 5px 10px;
+    font-size: 75%;
+    margin-left: 15px;
+}
+
+#blink {
+    -webkit-animation: blink 500ms linear infinite;
+    animation: blink 500ms linear infinite;
+}
+
+@-webkit-keyframes blink {
+    50% {
+        color: rgb(34, 34, 34);
+    }
+    51% {
+        color: rgba(34, 34, 34, 0);
+    }
+    100% {
+        color: rgba(34, 34, 34, 0);
+    }
+}
+
+.hdn {
+    display: none;
+}
+
+@keyframes blink {
+    50% {
+        color: rgb(34, 34, 34);
+    }
+    51% {
+        color: rgba(34, 34, 34, 0);
+    }
+    100% {
+        color: rgba(34, 34, 34, 0);
+    }
+}
+
+body {
+    overflow-y: scroll;
+}
+
+span {
+    font-size: 14px !important;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.form-inline {
+    display: inline;
+}
+
+.logo-img {
+    margin: 10px;
+    float: left;
+    max-width: 25%;
+}
+
+.container {
+    background-color: #f3f3f3;
+    min-height: 100vh;
+}
+
+.output {
+    margin: 15px;
+    clear: both;
+}
+
+.output-table {
+    background-color: white;
+}
+
+.output-table > tbody > tr > td {
+    padding: 3px 8px;
+}
+
+.city {
+    color: darkblue;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+.btn:focus,
+.btn:active,
+.btn:active:focus,
+.btn.active:focus {
+    outline: none;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.ml-15 {
+    margin-left: 15px !important;
+}
