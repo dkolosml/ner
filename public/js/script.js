@@ -1,3 +1,4 @@
+/* ner app */
 var getButton = $('.get-button');
 var dateInput = $('#date');
 var date = dateInput.val();

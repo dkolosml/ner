@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html><?php /* ner app */ ?>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">

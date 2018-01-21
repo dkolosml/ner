@@ -1,4 +1,4 @@
--- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL Dump /* ner app */
 -- version 4.7.3
 -- https://www.phpmyadmin.net/
 --
